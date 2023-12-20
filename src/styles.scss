@@ -1,0 +1,32 @@
+@import "../node_modules/reset-css/sass/reset";
+@import "bootstrap/scss/bootstrap";
+
+.background {
+    min-height: 100vh;
+    background: linear-gradient(
+        153deg,
+        rgba(70, 172, 159, 1) 13%,
+        rgba(10, 108, 152, 1) 33%,
+        rgba(80, 51, 105, 1) 56%,
+        rgba(88, 28, 62, 1) 79%,
+        rgba(159, 2, 89, 1) 100%
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 600px;
+}
+
+.custom-label {
+    min-width: 75px;
+}
+
+.custom-result {
+    min-height: 120px;
+}
+
+.custom-div {
+    width: 350px;
+}
