@@ -16,17 +16,17 @@
 }
 
 .container {
-    width: 600px;
+    max-width: 600px;
 }
 
 .custom-label {
-    min-width: 75px;
-}
-
-.custom-result {
-    min-height: 120px;
+    min-width: 80px;
 }
 
 .custom-div {
-    width: 350px;
+    max-width: 350px;
+}
+
+.custom-select {
+    padding-left: 30px;
 }
